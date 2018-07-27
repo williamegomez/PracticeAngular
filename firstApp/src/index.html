@@ -1,12 +1,15 @@
-<body ng-app="theWholeApp" ng-controller="IndexController as IndexCtrl" ng-cloak>
-  <super-awesome-component some-input="93" some-output="IndexCtrl.fancyValue = value">
-  </super-awesome-component>
-  <super-awesome-component some-input="2" some-output="IndexCtrl.fancyValue = IndexCtrl.fancyValue + IndexCtrl.addValue">
-  </super-awesome-component>
-  <p>
-    A variable on the controller above the components: {{IndexCtrl.fancyValue}}
-  </p>
+<!DOCTYPE html>
+<html ng-app="phonecatApp" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <phone-list></phone-list>
 </body>
-<tail>
-  <script src="index-bundle.js"></script>
-</tail>
+
+</html>

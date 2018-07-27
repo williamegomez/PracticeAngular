@@ -1,5 +1,5 @@
 {
-  "extends": ["react-app", "plugin:prettier/recommended"],
+  "extends": ["angular"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
